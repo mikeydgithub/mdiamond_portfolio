@@ -87,6 +87,7 @@ export const SectionDivider = styled.div`
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
+    
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
@@ -279,3 +280,9 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+
+export const SelfImage = styled.div`
+.self_imgage{
+  height: 500px 500px;
+  background-image: url(https://user-images.githubusercontent.com/94988620/171959943-85a287c0-fa0e-49a5-af06-acd294f4cb98.png)
+}`

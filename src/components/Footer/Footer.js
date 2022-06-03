@@ -8,7 +8,6 @@ import { ContactContainer, CompanyContainer, FooterWrapper, LinkColumn, LinkItem
 
 
 const Footer = () => {
-
   
   return (
     <FooterWrapper>

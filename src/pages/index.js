@@ -15,7 +15,6 @@ const Home = () => {
       <About />
       <Projects />
       <Technologies />
-
     </Layout>
   );
 };
