@@ -9,7 +9,6 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am a fullstack web developer who has learned JavaScript, etc..
     </SectionText>
     <List>
       <ListItem>
@@ -17,10 +16,13 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>Experience with <br/>
-          React.js,
-          JavaScript,
+          HTML,
+          React,
           CSS,
-          SASS
+          JavaScript
+        
+         
+          
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -30,9 +32,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>Experience with <br/>
           Node.js,
-          JavaScript,
           MySQL,
-          NoSQL
+          MongoDB,
+          Mongoose
+
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +44,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>Experience with <br/>
-          Tools like figma
+          Sass,
+          Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
