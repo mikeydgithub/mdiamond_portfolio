@@ -49,7 +49,7 @@ const Footer = () => {
           <label>Message</label>
           <textarea type="text" placeholder='Message' required></textarea> 
           <button type='submit'>Submit</button>
-          <input type="hidden" name="_next" value="localhost:3000"></input>
+          <input type="hidden" name="_next" value="https://mdiamond-portfolio.herokuapp.com/"></input>
         </form>
       </section>
       </ContactContainer>
