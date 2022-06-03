@@ -161,7 +161,7 @@ export const LinkTitle = styled.h4`
 
 export const ContactContainer = styled.h4`
 	.form {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
