@@ -1,12 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, ContactContainer } from './FooterStyles';
+// add form validation
+import { validateEmail } from '../../utils/helpers';
 
 
-const Footer = () => {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+// initialize the state
+function ContactForm() {
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
@@ -38,35 +38,9 @@ const Footer = () => {
             }
         }
     }
-  return (
-    <FooterWrapper>
-      <LinkList>
-      <LinkColumn>
-        <LinkTitle>Call</LinkTitle>
-        <LinkItem href="tel: 954-295-9085">954-295-9085</LinkItem>
-      </LinkColumn>
-      <LinkColumn>
-        <LinkTitle>Email</LinkTitle>
-        <LinkItem href="mailto:ampgzo2@gmail.com">ampgzo2@gmail.com</LinkItem>
-      </LinkColumn>
-      </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-        </CompanyContainer>
-        <SocialContainer>
-        <SocialIcons href="https://github.com/mikeydgithub">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/michael-diamond-a704a9168/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://instagram.com">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
-      <ContactContainer>
-      <section>
+
+    return (
+        <section>
             <h1 data-testid="h1tag">Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
@@ -89,9 +63,7 @@ const Footer = () => {
                 <button data-testid="button" type="submit">Submit</button>
             </form>
         </section>
-      </ContactContainer>
-    </FooterWrapper>
-  );
-};
+    )
+}
 
-export default Footer;
+export default ContactForm

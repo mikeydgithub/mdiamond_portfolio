@@ -157,3 +157,13 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
+export const ContactContainer = styled.h4`
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.4);
+	margin-bottom: 16px;
+`

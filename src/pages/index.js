@@ -7,6 +7,7 @@ import About from '../components/About/About';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
+
 const Home = () => {
   return (
     <Layout>
@@ -14,7 +15,6 @@ const Home = () => {
       <Projects />
       <Technologies />
       <About />
-      {/* <Acomplishments /> */}
     </Layout>
   );
 };
