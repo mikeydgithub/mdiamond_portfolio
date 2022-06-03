@@ -6,6 +6,7 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
+  form: "25px";
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -159,11 +160,62 @@ export const LinkTitle = styled.h4`
 `
 
 export const ContactContainer = styled.h4`
-	font-style: normal;
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 24px;
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
-	margin-bottom: 16px;
+	.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: rgb(255,255,255);
+  font-weight: bold;
+}
+
+.form > button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form > button:hover {
+  background-color: rgb(0, 0, 196);
+}
 `
