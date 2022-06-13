@@ -1,18 +1,18 @@
 
 export const projects = [
-  {
-    title: 'Ploom',
-    description: "E Commerce site for users to safley purchase CBD products",
-    image: '/images/1.png',
-    tags: ['BCrypt', 'Stripe', 'Mongoose', ],
-    // Sass', 'Stripe', 'GraphQL', 'Apollo', 'JWT', 'React'
-    visit: 'https://github.com/mikeydgithub/Plume_App',
-    source: 'https://plume-appv2.herokuapp.com/',
-    id: 0,
-  },
+  // {
+  //   title: 'Ploom',
+  //   description: "E Commerce site for users to safley purchase CBD products",
+  //   image: '/images/1.png',
+  //   tags: ['BCrypt', 'Stripe', 'Mongoose', ],
+  //   // Sass', 'Stripe', 'GraphQL', 'Apollo', 'JWT', 'React'
+  //   visit: 'https://github.com/mikeydgithub/Plume_App',
+  //   source: 'https://plume-appv2.herokuapp.com/',
+  //   id: 0,
+  // },
   {
     title: 'Pizza Hunt',
-    description:"A social network pizza app that users can create pizzas, save their orders, and start a discussion",
+    description:"A social network pizza app that users can create pizzas, save their orders, and start a discussion.",
     image: '/images/2.png',
     tags: ['Mongoose', 'Node.js', 'Express'],
     visit: 'https://github.com/mikeydgithub/pizza-hunt',
@@ -20,8 +20,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Travel Buget Tracker',
-    description: "A PWA (Progress Web Application) for tracking your vacation budget where no internet or slow internet can still presist.",
+    title: 'Travel Budget Tracker',
+    description: "A PWA (Progress Web Application) for tracking your vacation budget with slow internet or no internet.",
       image: '/images/3.png',
       tags: ['Compression', 'Mongoose', 'Morgan', 'Express'],
     visit: 'https://github.com/mikeydgithub/Travel-Budget-Tracker',
@@ -38,6 +38,7 @@ export const projects = [
     id: 3,
   },
 ];
+
 
 // export const TimeLineData = [
 //   { year: 2017, text: 'Started my journey', },
