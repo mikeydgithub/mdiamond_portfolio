@@ -1,15 +1,14 @@
 
 export const projects = [
-  // {
-  //   title: 'Ploom',
-  //   description: "E Commerce site for users to safley purchase CBD products",
-  //   image: '/images/1.png',
-  //   tags: ['BCrypt', 'Stripe', 'Mongoose', ],
-  //   // Sass', 'Stripe', 'GraphQL', 'Apollo', 'JWT', 'React'
-  //   visit: 'https://github.com/mikeydgithub/Plume_App',
-  //   source: 'https://plume-appv2.herokuapp.com/',
-  //   id: 0,
-  // },
+  {
+    title: 'Weather App',
+    description: "A weather app to look up the weather in the area you want to see.",
+    image: '/images/1.png',
+    tags: ['React', 'TailwindCSS', 'Toastify', ],
+    visit: 'https://github.com/mikeydgithub/weather_app',
+    source: 'https://weatherzone22-app.herokuapp.com/',
+    id: 0,
+  },
   {
     title: 'Pizza Hunt',
     description:"A social network pizza app that users can create pizzas, save their orders, and start a discussion.",
