@@ -175,10 +175,8 @@ export const ContactContainer = styled.h4`
 textarea {
   padding: 20px;
   border-radius: 3px;
-  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
   margin-bottom: 20px;
   border: 1px solid lightgray;
-  /* border: none; */
   background: #fff;
   font-size: 16px;
   color: rgb(0, 0, 32);

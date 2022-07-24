@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
-
-
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { SocialIcons } from '../Header/HeaderStyles';
-import { ContactContainer, CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer} from './FooterStyles';
+// import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+// import { SocialIcons } from '../Header/HeaderStyles';
+import { ContactContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle} from './FooterStyles';
 
 
 
 const Footer = () => {
   
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <LinkList>
       <LinkColumn>
         <LinkTitle>Call</LinkTitle>
@@ -18,17 +15,17 @@ const Footer = () => {
       </LinkColumn>
       <LinkColumn>
         <LinkTitle>Email</LinkTitle>
-        <LinkItem href="mailto:ampgzo2@gmail.com">ampgzo2@gmail.com</LinkItem>
+        <LinkItem href="mailto:mikediamond334@gmail.com">mikediamond334@gmail.com</LinkItem>
       </LinkColumn>
       </LinkList>
-      <ContactContainer id="contact">
+      <ContactContainer>
       <section>
-        <form className='form' action="https://formsubmit.co/ampgzo2@gmail.com" method="POST">
+        <form className='form' action="https://formsubmit.co/mikediamond334@gmail.com" method="POST">
           <h1>Contact Form</h1>
           <label>Name</label>
-          <input type="text" placeholder='name' required/>
+          <input type="text" placeholder='Name' required/>
           <label>Email</label>
-          <input type="email" placeholder='email' required/>
+          <input type="email" placeholder='Email' required/>
           <label>Message</label>
           <input type="text" name="message" placeholder='Message' required/> 
           <button type='submit'>Submit</button>
@@ -36,7 +33,7 @@ const Footer = () => {
         </form>
       </section>
       </ContactContainer>
-      <SocialIconsContainer>
+      {/* <SocialIconsContainer>
         <CompanyContainer>
         </CompanyContainer>
         <SocialContainer>
@@ -50,7 +47,7 @@ const Footer = () => {
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         </SocialContainer>
-      </SocialIconsContainer>
+      </SocialIconsContainer> */}
     </FooterWrapper>
   );
 };

@@ -8,6 +8,8 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  background: rgb(2, 0, 206, 0.1);
+  
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -66,7 +68,29 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
+// Resume Link
+export const ResumeLink = styled.p`
+  font-size: 2rem;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.75);
+  transition: 0.4s ease;
+  &:hover {
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.75) 
+  }
+  a:hover {
+    color: #fff;
+    opacity: 1;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {  
+  }
+`;
+
+// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;

@@ -5,39 +5,49 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
-`
+  cursor: pointer;
+  &:hover{
+  transform: scale(1.05);
+  }
+  transition: all 0.5s ease;
+`;
 
 export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 3rem;
+  place-items: center;
+  column-gap: 5rem;
+  row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
-}
+  }
+`;
 
-`
 export const BlogCard = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  alight-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 45px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -72,13 +82,11 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: justify-center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
+    padding:.3rem 
 }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -89,24 +97,19 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  
 }
 `;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
 padding: 2rem;
-`
+margin-left: 5px;
+`;
+
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-`
+`;

@@ -280,8 +280,3 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
-// export const SectionImg = styled.img`
-//   display: flex;
-//   height: 300px;
-//   img: url(https://user-images.githubusercontent.com/94988620/172021796-ff385b2a-1191-44d6-9e34-653a2b8e7dd9.png);
-// `
