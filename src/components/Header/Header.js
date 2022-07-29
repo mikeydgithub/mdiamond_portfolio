@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, ResumeLink } from './HeaderStyles';
@@ -46,13 +46,13 @@ const Header = () =>  (
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com">
+        <SocialIcons href="https://github.com/mikeydgithub">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://linkedin.com">
+        <SocialIcons href="https://www.linkedin.com/in/michael-diamond-a704a9168/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com">
+        <SocialIcons href="https://www.instagram.com/mikexcpt/">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
       </Div3>
