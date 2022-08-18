@@ -41,7 +41,7 @@ const Header = () =>  {
         </li>
         <li>
           <ResumeLink>
-          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:857a38ff-e6b9-4c8b-959e-8935ac98231e"
+          <a href="https://docs.google.com/document/d/101I_VhhBuazlbmXajEuys8PobHUa3LIt/export?format=pdf"
           target="_blank">
           Resume
           </a>
