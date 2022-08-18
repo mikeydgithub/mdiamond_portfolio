@@ -54,4 +54,13 @@ export const projects = [
     website: 'https://shopper-shop-app.herokuapp.com/',
     id: 5,
   },
+  {
+    title: 'Jeoprady',
+    description: "A trivia game to get the best score possible.",
+    image: '/images/7.png',
+    tags: ['HTML | ' + 'CSS | '+ 'JavaScript '],
+    gitHub: 'https://github.com/mikeydgithub/jeopardy',
+    website: 'https://mikeydgithub.github.io/jeopardy/',
+    id: 6,
+  },
 ];
