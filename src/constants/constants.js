@@ -51,7 +51,7 @@ export const projects = [
     image: '/images/6.png',
     tags: ['React | ' + 'Stripe | '+ 'React-Router | '+ 'Mongoose | ' + 'GraphQL | ' + 'JWT '],
     gitHub: 'https://github.com/mikeydgithub/shop-shop',
-    website: 'https://shoper-shop-app.herokuapp.com/',
+    website: 'https://shopper-shop-app.herokuapp.com/',
     id: 5,
   },
 ];
